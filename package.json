@@ -1,0 +1,23 @@
+{
+  "name": "xible-nodepack-process",
+  "version": "0.1.0",
+  "description": "Set of nodes for XIBLE to run (child-) processes.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spectrumbroad/xible-nodepack-process"
+  },
+  "bugs": {
+    "url": "https://github.com/spectrumbroad/xible-nodepack-process/issues",
+    "email": "bugs@xible.io"
+  },
+  "keywords": [
+    "xible",
+    "commandline",
+    "cli",
+    "shell",
+    "process",
+    "child_process",
+    "nodepack"
+  ]
+}

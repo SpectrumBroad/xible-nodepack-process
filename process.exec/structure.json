@@ -1,0 +1,29 @@
+{
+  "name": "process.exec",
+  "type": "action",
+  "description": "Spawns a shell then executes the command(s) within that shell, buffering any generated output.",
+  "inputs": {
+    "trigger": {
+      "type": "trigger"
+    },
+    "commands": {
+      "type": "string",
+      "description": "One or more commands to execute."
+    },
+    "cwds": {
+      "type": "filesystem.directory",
+      "description": "Current working directories of the process. If multiple are passed, the command(s) will be executed once for each cwd."
+    }
+  },
+  "outputs": {
+    "done": {
+      "type": "trigger"
+    },
+    "stdout": {
+      "type": "string"
+    },
+    "stderr": {
+      "type": "string"
+    }
+  }
+}
